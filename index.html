@@ -736,9 +736,28 @@
     </div>
     <div class="contact-form-area reveal">
       <h3>Send Us a Message</h3>
-      <div class="form-placeholder">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdNtQpWuwGJ0njT490S7yPkcqJegKdgBrFla1HxBqTzTcVtg/viewform?embedded=true" width="640" height="1276" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
+<form action="https://formspree.io/f/mykobqok" method="POST" style="display:flex; flex-direction:column; gap:1rem; margin-top:1.5rem;">
+  <input type="text" name="name" placeholder="Your Name" required
+    style="padding:0.85rem 1rem; background:rgba(255,255,255,0.07); border:1px solid rgba(201,169,110,0.25); border-radius:3px; color:#fff; font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+  <input type="tel" name="phone" placeholder="Phone Number" required
+    style="padding:0.85rem 1rem; background:rgba(255,255,255,0.07); border:1px solid rgba(201,169,110,0.25); border-radius:3px; color:#fff; font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+  <input type="email" name="email" placeholder="Email Address" required
+    style="padding:0.85rem 1rem; background:rgba(255,255,255,0.07); border:1px solid rgba(201,169,110,0.25); border-radius:3px; color:#fff; font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+  <select name="service" required
+    style="padding:0.85rem 1rem; background:#1e3d47; border:1px solid rgba(201,169,110,0.25); border-radius:3px; color:rgba(255,255,255,0.8); font-family:'DM Sans',sans-serif; font-size:0.9rem;">
+    <option value="" disabled selected>Service Needed</option>
+    <option>Deep Cleaning</option>
+    <option>Manpower Supply</option>
+    <option>Specialized Staffing</option>
+    <option>All of the above</option>
+  </select>
+  <textarea name="message" placeholder="Tell us about your property and requirements" rows="4" required
+    style="padding:0.85rem 1rem; background:rgba(255,255,255,0.07); border:1px solid rgba(201,169,110,0.25); border-radius:3px; color:#fff; font-family:'DM Sans',sans-serif; font-size:0.9rem; resize:vertical;"></textarea>
+  <button type="submit"
+    style="padding:0.9rem; background:#c9a96e; color:#1e3d47; font-weight:700; font-size:0.9rem; border:none; border-radius:3px; cursor:pointer; font-family:'DM Sans',sans-serif; letter-spacing:0.5px;">
+    Send Message →
+  </button>
+</form>
     </div>
   </div>
 </section>
